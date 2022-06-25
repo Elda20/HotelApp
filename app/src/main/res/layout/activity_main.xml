@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="280dp">
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="280dp"
+           android:scaleType="centerCrop"
+           android:adjustViewBounds="true"
+           android:id="@+id/imageView1"
+           android:background="#999">
+       </ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#a00"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$74"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Per Night"
+            android:textSize="13sp"
+            android:textColor="#fff">
+        </TextView>
+    </LinearLayout>
+</FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="The Beach is but a short walk away"
+             android:textSize="24sp"
+             android:gravity="center">
+         </TextView>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="16dp"
+             android:gravity="center"
+             android:text="Terletak di Bukit Ungasan yang menghadap ke Samudra Hindia, Karma Kandara Resort menawarkan vila-vila dengan kolam renang pribadi. Menyediakan Wi-Fi gratis di seluruh areanya, hotel ini memiliki klub pantai eksklusif dan pusat kebugaran.
+Vila-vila yang luas menawarkan pemandangan laut dan berperabotan lengkap dengan ruang makan, ruang tamu, dan dapur. Fasilitas di setiap vila meliputi AC, TV kabel layar datar, dan brankas. Untuk kenyamanan ekstra, kamar mandinya dilengkapi dengan pengering rambut dan perlengkapan mandi gratis.
+Karma Kandara Resort memiliki kolam renang outdoor tanpa batas dan perawatan pijat di Karma Spa. Karma Beach Bali di dekatnya memiliki sofa daybed, bar, dan kegiatan olahraga air. Antar-jemput bandara dapat diatur dengan biaya tambahan.Hidangan panggang Mediterania yang lezat, hidangan Asia, dan cita rasa Barat disajikan di 2 restoran resor. Koktail tersedia di bar atap dan tersedia layanan kamar 24 jam.
+Karma Kandara Resort berjarak sekitar 11 km dari Bandara Internasional Ngurah Rai.">
+         </TextView>
+     </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:textColor="#ffffff"
+        android:text="Book Now!!!">
+    </Button>
+</LinearLayout>
